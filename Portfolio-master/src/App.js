@@ -16,6 +16,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Helmet } from "react-helmet-async";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -29,6 +30,14 @@ function App() {
   }, []);
 
   return (
+    <>
+    <Helmet>
+       <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2094431619867094"
+          crossOrigin="anonymous"
+        ></script>
+    </Helmet>,
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
@@ -44,6 +53,7 @@ function App() {
         <Footer />
       </div>
     </Router>
+    </>
   );
 }
 
