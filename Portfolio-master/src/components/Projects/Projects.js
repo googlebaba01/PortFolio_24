@@ -39,7 +39,6 @@ function Projects() {
               title="News - App"
               description="A React-based news application featuring real-time updates sourced from an external API, with intuitive navigation facilitated by React Router. The app categorizes news for easy exploration, allowing users to click on articles for in-depth information. With a focus on responsiveness and engagement, the application offers a dynamic and seamless news experience, ensuring users stay informed with the latest content in a visually appealing and user-friendly interface."
               ghLink="https://github.com/googlebaba01/News-App/tree/main"
-              // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
@@ -47,10 +46,11 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="E-Commerce website"
-              description="A user-centric e-commerce interface with seamless browsing, advanced search, secure checkout, personalized accounts, and interactive feedback. The admin interface ensures efficient management of inventory, orders, users, analytics, and settings. Implemented Bcrypt.js for password security, storing hashed passwords instead of plain text. Utilized Cloudinary for cloud image storage and employed JSON Web Token (JWT) for secure information exchange. Mongoose facilitated backend-MongoDB connections, while Express managed server routes. Additional third-party libraries like Node Mailer and React-alert enhance functionality. The result is a feature-rich e-commerce platform with robust security and streamlined management capabilities."
-              ghLink="https://github.com/googlebaba01/E-commerce-master"
-              // demoLink="https://editor.soumya-jit.tech/"              
+              title="Orange-Farm"
+              description="Developed a responsive dashboard using React.js, Node.js, and D3.js with a Growth graph to visualize profit trends. Optimized performance by implementing a custom downsampling algorithm to efficiently handle ~70,000 rows, ensuring smooth graph rendering and improved user experience."
+              ghLink="https://github.com/googlebaba01/Toshiba"
+              demoLink="https://toshiba-rose.vercel.app/"
+
             />
           </Col>
 
@@ -65,28 +65,6 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>
